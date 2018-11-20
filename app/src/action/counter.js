@@ -1,8 +1,8 @@
 export default {
   increment: () => {
-    return { type: 'INC' }
+    return { type: 'INC_REQUEST' }
   },
   decrement: () => {
-    return { type: 'DEC' }
+    return { type: 'DEC_REQUEST' }
   },
 }
